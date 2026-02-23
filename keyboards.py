@@ -3,7 +3,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 def main_menu():
     kb = [
-        [KeyboardButton(text="📲 Купить"), KeyboardButton(text="🖥 Профиль")],
+        [KeyboardButton(text="📲 Сосать"), KeyboardButton(text="🖥 Профиль")],
         [KeyboardButton(text="ℹ️ Информация")]
     ]
     return ReplyKeyboardMarkup(keyboard=kb, resize_keyboard=True)
